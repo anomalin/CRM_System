@@ -30,6 +30,8 @@ public class Customer {
 		this(customerId, companyName, notes);
 		this.email = email;
 		this.telephone = telephone;
+
+		this.customerId = String.valueOf(customerId);
 	}
 
 	public Customer(String customerId, String companyName, String notes){
@@ -45,7 +47,7 @@ public class Customer {
 
 
 	public String toString(){
-		return this.customerId + ": " + this.companyName ;
+		return this.customerId + ": " + this.companyName + ": " + this.getCalls() ;
 	}
 
 	public String getCustomerId() {
