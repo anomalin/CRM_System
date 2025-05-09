@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac0b8bad-a33d-4cab-821c-4450e4f31195" name="Changes" comment="adding code for assignment 4" />
+    <list default="true" id="ac0b8bad-a33d-4cab-821c-4450e4f31195" name="Changes" comment="starting off with the base from last assignment">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/yrgo/advice/PerformanceTimingAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/client/SimpleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/client/SimpleClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CallRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CallRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CustomerRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CustomerRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/domain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/services/customers/CustomerManagementServiceProductionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/services/customers/CustomerManagementServiceProductionImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,21 +50,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SimpleClient.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Inl4&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/malinsundberg/Backendprogrammering/InlämningSpring/CRM_System&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SimpleClient.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Inl5",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/malinsundberg/Backendprogrammering/InlämningSpring/CRM_System",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,6 +86,7 @@
       <workItem from="1745948239360" duration="19272000" />
       <workItem from="1746474255645" duration="146000" />
       <workItem from="1746532077090" duration="16000" />
+      <workItem from="1746776172306" duration="1305000" />
     </task>
     <task id="LOCAL−00001" summary="adding code for assignment 4">
       <option name="closed" value="true" />
@@ -84,7 +95,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1746474345343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="starting off with the base from last assignment">
+      <option name="closed" value="true" />
+      <created>1746776215087</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1746776215087</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding code for assignment 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding code for assignment 4" />
+    <MESSAGE value="starting off with the base from last assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting off with the base from last assignment" />
   </component>
 </project>

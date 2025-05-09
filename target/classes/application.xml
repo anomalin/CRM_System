@@ -1,7 +1,11 @@
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"  
-            "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
-
-<beans>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xsi:schemaLocation=
+			   "http://www.springframework.org/schema/aop
+				http://www.springframework.org/schema/aop/spring-aop.xsd
+				http://www.springframework.org/schema/beans
+				http://www.springframework.org/schema/beans/spring-beans.xsd">
 	<bean id="customerManagement" class="se.yrgo.services.customers.CustomerManagementMockImpl"/>
 	<bean id="diaryManagement" class="se.yrgo.services.diary.DiaryManagementServiceMockImpl"/>
 	<!-- add your bean definitions here! -->
@@ -9,5 +13,13 @@
 		<constructor-arg ref="customerManagement"/>
 		<constructor-arg ref="diaryManagement"/>
 	</bean>
+	<bean id="performanceTimingAdvice" class="se.yrgo.advice.PerformanceTimingAdvice"/>
+
+   <aop:config>
+       <aop:aspect ref = "performanceTimingAdvice">
+           <aop:around method="performTimingMeasurement"
+                       pointcut = "execution(* se.yrgo.services..*.*(..))" />
+       </aop:aspect>
+   </aop:config>
 
 </beans>
