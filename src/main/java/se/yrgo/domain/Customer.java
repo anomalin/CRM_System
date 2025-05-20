@@ -45,7 +45,7 @@ public class Customer {
 
 
 	public String toString(){
-		return this.customerId + ": " + this.companyName ;
+		return this.customerId + ": " + this.companyName + ", " + this.calls;
 	}
 
 	public String getCustomerId() {

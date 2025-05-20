@@ -21,7 +21,7 @@ public class SimpleClient {
 
     public static void main(String[] args) throws CustomerNotFoundException {
         ClassPathXmlApplicationContext container = new ClassPathXmlApplicationContext("application.xml");
-        CustomerManagementService service = container.getBean("customerManagement", CustomerManagementServiceProductionImpl.class);
+        CustomerManagementService service = container.getBean("customerManagement", CustomerManagementService.class);
         Customer customer1 = new Customer("C005", "anomalin jewelry", "anomlin@hjdf", "0730449610", "jewelry maker");
         Customer customer2 = new Customer("C006", "Samuel Petersson", "hello@sampet.com", "0834894", "Photographer");
         Customer customer3 = new Customer("C007", "Stina art", "art@stina", "07438297834", "Artist");
@@ -70,7 +70,7 @@ public class SimpleClient {
 
         try {
             Customer fullInfo = service.getFullCustomerDetail("C005");
-            System.out.println("\nFull info on customer: " + fullInfo.toString());
+            System.out.println("\nFull info on customer: " + fullInfo);
         } catch (CustomerNotFoundException e) {
             e.printStackTrace();
         }

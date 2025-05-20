@@ -2,6 +2,7 @@ package se.yrgo.services.customers;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import se.yrgo.dataaccess.CustomerDao;
 import se.yrgo.dataaccess.RecordNotFoundException;
@@ -9,7 +10,7 @@ import se.yrgo.domain.Call;
 import se.yrgo.domain.Customer;
 
 public class CustomerManagementServiceProductionImpl implements CustomerManagementService {
-private final CustomerDao dao;
+    private final CustomerDao dao;
 
 public CustomerManagementServiceProductionImpl(CustomerDao dao) {
     this.dao = dao;

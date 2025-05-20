@@ -7,25 +7,16 @@
     <list default="true" id="ac0b8bad-a33d-4cab-821c-4450e4f31195" name="Changes" comment="starting off with the base from last assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.dat.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database.dat.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/yrgo/advice/PerformanceTimingAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/yrgo/advice/PerformanceTimingAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/yrgo/client/SimpleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/yrgo/client/SimpleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/yrgo/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/yrgo/domain/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/yrgo/services/customers/CustomerManagementServiceProductionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/yrgo/services/customers/CustomerManagementServiceProductionImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/advice/PerformanceTimingAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/advice/PerformanceTimingAdvice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/client/SimpleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/client/SimpleClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/ActionDaoJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/ActionDaoJdbcImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/ActionRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/ActionRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CallRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CallRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CustomerRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/CustomerRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/RecordNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/dataaccess/RecordNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/domain/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/domain/Action.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/domain/Call.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/domain/Call.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/services/calls/CallHandlingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/services/calls/CallHandlingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/services/customers/CustomerManagementMockImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/services/customers/CustomerManagementMockImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/domain/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/services/customers/CustomerManagementServiceProductionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/services/customers/CustomerManagementServiceProductionImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/services/customers/CustomerNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/services/customers/CustomerNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/se/yrgo/services/diary/DiaryManagementServiceMockImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/yrgo/services/diary/DiaryManagementServiceMockImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +90,8 @@
       <workItem from="1746474255645" duration="146000" />
       <workItem from="1746532077090" duration="16000" />
       <workItem from="1746776172306" duration="1305000" />
+      <workItem from="1747139953678" duration="1487000" />
+      <workItem from="1747569395099" duration="2719000" />
     </task>
     <task id="LOCAL−00001" summary="adding code for assignment 4">
       <option name="closed" value="true" />

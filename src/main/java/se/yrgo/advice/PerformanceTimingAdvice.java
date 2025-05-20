@@ -12,10 +12,10 @@ public class PerformanceTimingAdvice {
             return value;
         }finally {
             //after
-            long endTime= System.nanoTime();
-            long timeTaken = endTime - startTime;
+            double endTime= System.nanoTime();
+            double timeTaken = endTime - startTime;
             System.out.println("The method " +
-                    method.getSignature().getName() + " took " + timeTaken
+                    method.getSignature().getName() + " from the class " + method.getSignature().getDeclaringTypeName() +  " took " + timeTaken
                     /1000000);
         }
     }
