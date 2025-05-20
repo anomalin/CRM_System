@@ -2,23 +2,26 @@ package se.yrgo.client;
 
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import se.yrgo.dataaccess.CustomerDaoJdbcTemplateImpl;
 import se.yrgo.domain.Action;
 import se.yrgo.domain.Call;
 import se.yrgo.domain.Customer;
 import se.yrgo.services.calls.CallHandlingService;
+import se.yrgo.services.customers.CustomerManagementMockImpl;
 import se.yrgo.services.customers.CustomerManagementService;
 import se.yrgo.services.customers.CustomerManagementServiceProductionImpl;
 import se.yrgo.services.customers.CustomerNotFoundException;
+import se.yrgo.services.diary.DiaryManagementService;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 public class SimpleClient {
 
     public static void main(String[] args) throws CustomerNotFoundException {
-
         ClassPathXmlApplicationContext container = new ClassPathXmlApplicationContext("application.xml");
-        CustomerManagementService service = container.getBean("customerManagement", CustomerManagementServiceProductionImpl.class);
-
+        CustomerManagementService service = container.getBean("customerManagement", CustomerManagementService.class);
         Customer customer1 = new Customer("C005", "anomalin jewelry", "anomlin@hjdf", "0730449610", "jewelry maker");
         Customer customer2 = new Customer("C006", "Samuel Petersson", "hello@sampet.com", "0834894", "Photographer");
         Customer customer3 = new Customer("C007", "Stina art", "art@stina", "07438297834", "Artist");
@@ -67,10 +70,11 @@ public class SimpleClient {
 
         try {
             Customer fullInfo = service.getFullCustomerDetail("C005");
-            System.out.println("\nFull info on customer: " + fullInfo.toString());
+            System.out.println("\nFull info on customer: " + fullInfo);
         } catch (CustomerNotFoundException e) {
             e.printStackTrace();
         }
+
 
         container.close();
     }
