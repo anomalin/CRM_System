@@ -2,19 +2,11 @@ package se.yrgo.client;
 
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import se.yrgo.domain.Action;
 import se.yrgo.domain.Call;
 import se.yrgo.domain.Customer;
-import se.yrgo.services.calls.CallHandlingService;
-import se.yrgo.services.customers.CustomerManagementMockImpl;
 import se.yrgo.services.customers.CustomerManagementService;
-import se.yrgo.services.customers.CustomerManagementServiceProductionImpl;
 import se.yrgo.services.customers.CustomerNotFoundException;
-import se.yrgo.services.diary.DiaryManagementService;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 public class SimpleClient {
